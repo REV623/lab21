@@ -6,7 +6,7 @@ struct Rect{
 };
 
 double overlap(Rect R1,Rect R2){
-	double W=-1,H=-1;
+	double W,H;
 	Rect r1=R1,r2=R2;
 	if(r1.x>r2.x){
 		r1=R2;
